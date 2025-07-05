@@ -1,0 +1,147 @@
+.container {
+    width: 80vw;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+.fdh {
+    text-align: center;
+    font-size: small;
+    height: 320px;
+    background: rgba(0, 0, 44, 0.795);
+}
+
+.icon-up-arrow {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.yellow-icon {
+    animation: jump 2s infinite ease-in-out;
+}
+
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Starting and ending position */
+    }
+
+    50% {
+        transform: translateY(-10px);
+        /* Jumping up */
+    }
+}
+
+.up-hvr {
+    background-color: white;
+    /* height: 200px; */
+    /* animation: jumps 1s ease-in; */
+    transition: 0.9s ease-in-out;
+}
+
+.fdh:hover .up-hvr {
+
+    transform: translateY(-55px);
+    transition: 0.4s ease-in-out;
+
+}
+
+.fdh:hover {
+    background-color: rgba(5, 102, 102, 0.616);
+}
+
+.img-set {
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border: 30px solid rgba(222, 214, 214, 0.638);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.pindent p {
+    text-indent: 50px;
+}
+
+.bg-img {
+    background-image: url(../img/slider2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-blend-mode: overlay;
+    background-color: rgba(46, 76, 122, 0.414);
+    background-attachment: fixed;
+    /* background-blend-mode: multiply; */
+}
+.bbs {
+    border-bottom: 2px dotted black;
+    padding-bottom: 10px;
+}
+.hh {
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.hvr-secondary:hover {
+    background-color: rgba(128, 128, 128, 0.555);
+}
+
+.hhh {
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.fss {
+    font-size: small;
+}
+
+
+.underline {
+    width: 40px;
+    border-bottom: 5px solid orange;
+}
+.service-h{
+    height: 230px;
+}
+.service-hvr{
+    transition: 0.7s ease-out;
+}
+.service-hvr:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in;
+}
+.bg-imgg{
+    background-image: url(../img/slider3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    /* background-color: rgba(95, 20, 7, 0.473); */
+    /* background-image: linear-gradient(90deg, rgba(255, 0, 0, 0.436), rgba(255, 255, 0, 0.419), rgba(255, 166, 0, 0.162)); */
+    background-image: linear-gradient(to right, rgba(159, 23, 23, 0.5), rgba(41, 41, 172, 0.5));
+}
+.os-height{
+    height: 160px;
+}
+.os-bg-clr{
+    background-color: #1e201e65;;
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+}
+.bg-clr{
+    background-color: black;
+}
