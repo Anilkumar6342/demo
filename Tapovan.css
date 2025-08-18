@@ -73,7 +73,7 @@
 }
 
 .bg-img {
-    background-image: url(../img/slider2.jpg);
+    background-image: url(slider2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +123,7 @@
     transition: transform 0.2s ease-in;
 }
 .bg-imgg{
-    background-image: url(../img/slider3.jpg);
+    background-image: url(slider3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
